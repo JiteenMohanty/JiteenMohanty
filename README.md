@@ -1,16 +1,154 @@
-## Hi there 👋
+<div align="center">
 
-<!--
-**JiteenMohanty/JiteenMohanty** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# Hi, I'm Jiteen Mohanty
 
-Here are some ideas to get you started:
+### I turn ambiguous problems into APIs, and APIs into products people use.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Software Engineer · Java Backend & Full-Stack · Hyderabad, India
+
+[![Email](https://img.shields.io/badge/Email-jiteen.dev%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:jiteen.dev@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Jiteen%20Mohanty-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jiteen-mohanty-61b814133)
+[![Portfolio](https://img.shields.io/badge/Portfolio-View%20Work-000000?style=flat-square&logo=vercel&logoColor=white)](https://portfolio-jet-seven-46.vercel.app/)
+
+</div>
+
+<br>
+
+## Who I Am
+
+I'm a backend-leaning full-stack engineer who likes owning a feature from schema design to the button the user actually clicks. Most of my work lives in Java and Spring Boot — services, APIs, data models, the parts of a system that have to be correct even when nobody's watching. But I don't stop at the API boundary. If a project needs a React frontend or a Flutter app to be usable, I build that too.
+
+Two years in, my strongest instincts are around backend architecture, database design, and making systems that hold up under real usage — not just demo well. I've spent a fair amount of time in query plans and index design, and I'd rather fix a slow query than add a cache to hide it.
+
+I use AI tools the way I use any other tool in the stack: to move faster on the parts that don't need my judgment, so I can spend more time on the parts that do — architecture, trade-offs, and the actual problem the software is supposed to solve.
+
+<br>
+
+## Currently Building
+
+**AI Claims Processing Platform** — a production-oriented system for automating insurance claims workflows, combining backend engineering with applied AI. This is the project I'm putting the most weight behind right now.
+
+Alongside that, I'm early into **PayFlow**, a payments-focused product I'm building from the ground up — right now it's architecture decisions and data modeling more than shipped features, but it's where a lot of my design thinking is going.
+
+<br>
+
+## Featured Projects
+
+### 🧾 AI Claims Processing Platform
+*Flagship project*
+
+A backend-first platform for processing insurance claims, built to handle real-world document and workflow complexity rather than a simplified demo case.
+
+- Designed around a service layer that separates claim intake, validation, and adjudication logic, so each piece can evolve independently
+- Uses AI models to assist with document understanding and claims triage, with human-reviewable output rather than opaque auto-decisions
+- Built with scalability in mind — stateless services, clear data ownership boundaries, and a schema designed to survive changing business rules
+- The interesting engineering problem here isn't "add AI," it's making AI output something a claims system can trust and audit
+
+**Stack:** Java, Spring Boot, PostgreSQL, REST APIs, JWT/OAuth2
+
+<br>
+
+### 🏢 HomeHub
+*Visitor Management & Society Operations*
+
+Built for a real problem: residential communities tracking visitors, deliveries, and maintenance requests on paper, group chats, or nothing at all.
+
+- Flutter app for residents and gate security, backed by a Spring Boot service layer
+- Visitor entries, approvals, and notifications handled through Firebase and Twilio, so residents get real-time alerts without needing to open the app
+- MongoDB for the flexible, document-shaped data that visitor logs and maintenance requests naturally produce
+- The hard part wasn't the CRUD — it was making the approval flow fast enough that a security guard would actually use it instead of working around it
+
+**Stack:** Flutter, Spring Boot, MongoDB, Firebase, Twilio
+
+<br>
+
+### 💳 PayFlow
+*In progress*
+
+An early-stage payments platform I'm building to go deeper on the problems I find most interesting: consistency guarantees, idempotency, and designing APIs that are hard to misuse. Not ready to show off yet — more updates as the architecture solidifies.
+
+<br>
+
+### 🌐 Portfolio
+A running log of projects, write-ups, and what I'm working on outside of this profile.
+
+**[portfolio-jet-seven-46.vercel.app →](https://portfolio-jet-seven-46.vercel.app/)**
+
+<br>
+
+## Tech Stack
+
+**Backend**
+
+![Java](https://skillicons.dev/icons?i=java) ![Spring](https://skillicons.dev/icons?i=spring) ![PostgreSQL](https://skillicons.dev/icons?i=postgres) ![MySQL](https://skillicons.dev/icons?i=mysql) ![Redis](https://skillicons.dev/icons?i=redis) ![Kafka](https://skillicons.dev/icons?i=kafka)
+
+Spring Security · Hibernate / JPA · REST APIs · JWT · OAuth2
+
+**Frontend & Mobile**
+
+![React](https://skillicons.dev/icons?i=react) ![TypeScript](https://skillicons.dev/icons?i=ts) ![Flutter](https://skillicons.dev/icons?i=flutter)
+
+**Cloud & DevOps**
+
+![Docker](https://skillicons.dev/icons?i=docker) ![AWS](https://skillicons.dev/icons?i=aws) ![GitHub Actions](https://skillicons.dev/icons?i=githubactions)
+
+**Testing**
+
+![JUnit](https://skillicons.dev/icons?i=junit)
+
+JUnit · Mockito
+
+<br>
+
+## Engineering Philosophy
+
+A few things I actually try to live by, not just say:
+
+**Meaningful code beats clever code.** If a teammate needs ten minutes to understand a function, the cleverness cost more than it saved.
+
+**Products matter more than frameworks.** The stack is a means to an end. I care about whether the thing works for the person using it, not whether it's built on the newest tool.
+
+**Good software is mostly about the edge cases.** The happy path is easy. What happens when the network drops, the payload's malformed, or two requests hit at the same time — that's where the actual engineering is.
+
+**Write it so future-you doesn't have to guess.** Comments explain *why*, not *what*. Names should make the code readable without a decoder ring.
+
+**Keep learning on purpose.** I try to pick up something I don't already know on every project, even a small one — a pattern, a tool, a way of thinking about a problem.
+
+<br>
+
+## Open Source
+
+I'm actively looking to contribute to open source projects — particularly anything backend or full-stack in Java, Spring, or adjacent ecosystems. If you're maintaining something and could use an extra pair of hands, I'd like to hear about it.
+
+I'm also open to collaborating on interesting backend or full-stack side projects, especially ones with a real problem behind them rather than a portfolio-filler idea.
+
+<br>
+
+## Let's Build Something Together
+
+I'm currently open to:
+
+- Java Backend Engineer roles
+- Java Full Stack Engineer roles
+- Product startups building things people actually use
+- International remote opportunities
+
+If any of that sounds like a fit, my inbox is open.
+
+<br>
+
+## Fun Facts
+
+🏍 Bike enthusiast &nbsp;·&nbsp; 🎤 Beginner beatboxer &nbsp;·&nbsp; 🎧 Hip-hop listener &nbsp;·&nbsp; 🎮 Gamer
+
+<br>
+
+## Connect With Me
+
+<div align="center">
+
+[![Email](https://img.shields.io/badge/Email-jiteen.dev%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:jiteen.dev@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Jiteen%20Mohanty-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jiteen-mohanty-61b814133)
+[![Portfolio](https://img.shields.io/badge/Portfolio-View%20Work-000000?style=flat-square&logo=vercel&logoColor=white)](https://portfolio-jet-seven-46.vercel.app/)
+
+</div>
