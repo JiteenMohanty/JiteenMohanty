@@ -24,52 +24,7 @@ I use AI tools the way I use any other tool in the stack: to move faster on the 
 
 <br>
 
-## Currently Building
-
-**AI Claims Processing Platform** — a production-oriented system for automating insurance claims workflows, combining backend engineering with applied AI. This is the project I'm putting the most weight behind right now.
-
-Alongside that, I'm early into **PayFlow**, a payments-focused product I'm building from the ground up — right now it's architecture decisions and data modeling more than shipped features, but it's where a lot of my design thinking is going.
-
-<br>
-
-## Featured Projects
-
-### 🧾 AI Claims Processing Platform
-*Flagship project*
-
-A backend-first platform for processing insurance claims, built to handle real-world document and workflow complexity rather than a simplified demo case.
-
-- Designed around a service layer that separates claim intake, validation, and adjudication logic, so each piece can evolve independently
-- Uses AI models to assist with document understanding and claims triage, with human-reviewable output rather than opaque auto-decisions
-- Built with scalability in mind — stateless services, clear data ownership boundaries, and a schema designed to survive changing business rules
-- The interesting engineering problem here isn't "add AI," it's making AI output something a claims system can trust and audit
-
-**Stack:** Java, Spring Boot, PostgreSQL, REST APIs, JWT/OAuth2
-
-<br>
-
-### 🏢 HomeHub
-*Visitor Management & Society Operations*
-
-Built for a real problem: residential communities tracking visitors, deliveries, and maintenance requests on paper, group chats, or nothing at all.
-
-- Flutter app for residents and gate security, backed by a Spring Boot service layer
-- Visitor entries, approvals, and notifications handled through Firebase and Twilio, so residents get real-time alerts without needing to open the app
-- MongoDB for the flexible, document-shaped data that visitor logs and maintenance requests naturally produce
-- The hard part wasn't the CRUD — it was making the approval flow fast enough that a security guard would actually use it instead of working around it
-
-**Stack:** Flutter, Spring Boot, MongoDB, Firebase, Twilio
-
-<br>
-
-### 💳 PayFlow
-*In progress*
-
-An early-stage payments platform I'm building to go deeper on the problems I find most interesting: consistency guarantees, idempotency, and designing APIs that are hard to misuse. Not ready to show off yet — more updates as the architecture solidifies.
-
-<br>
-
-### 🌐 Portfolio
+## 🌐 Portfolio
 A running log of projects, write-ups, and what I'm working on outside of this profile.
 
 **[portfolio-jet-seven-46.vercel.app →](https://portfolio-jet-seven-46.vercel.app/)**
@@ -97,30 +52,6 @@ Spring Security · Hibernate / JPA · REST APIs · JWT · OAuth2
 ![JUnit](https://skillicons.dev/icons?i=junit)
 
 JUnit · Mockito
-
-<br>
-
-## Engineering Philosophy
-
-A few things I actually try to live by, not just say:
-
-**Meaningful code beats clever code.** If a teammate needs ten minutes to understand a function, the cleverness cost more than it saved.
-
-**Products matter more than frameworks.** The stack is a means to an end. I care about whether the thing works for the person using it, not whether it's built on the newest tool.
-
-**Good software is mostly about the edge cases.** The happy path is easy. What happens when the network drops, the payload's malformed, or two requests hit at the same time — that's where the actual engineering is.
-
-**Write it so future-you doesn't have to guess.** Comments explain *why*, not *what*. Names should make the code readable without a decoder ring.
-
-**Keep learning on purpose.** I try to pick up something I don't already know on every project, even a small one — a pattern, a tool, a way of thinking about a problem.
-
-<br>
-
-## Open Source
-
-I'm actively looking to contribute to open source projects — particularly anything backend or full-stack in Java, Spring, or adjacent ecosystems. If you're maintaining something and could use an extra pair of hands, I'd like to hear about it.
-
-I'm also open to collaborating on interesting backend or full-stack side projects, especially ones with a real problem behind them rather than a portfolio-filler idea.
 
 <br>
 
